@@ -1,0 +1,54 @@
+﻿<Window x:Class="LANOrigin.GamesWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LANOrigin"
+        mc:Ignorable="d"
+        Title="GamesWindow" Height="450" Width="800">
+    <Grid>
+        <!-- Slider zur Auswahl der Bildgröße -->
+        <StackPanel Orientation="Vertical" Margin="10">
+            <Slider Minimum="0" Maximum="2" Value="0"
+                    TickFrequency="1" IsSnapToTickEnabled="True"
+                    Width="150" Height="20"
+                    ValueChanged="SizeSliderChanged"/>
+            <TextBlock Text="Bildgröße wählen:" Foreground="White" FontSize="16" Margin="0,0,0,5"/>
+        </StackPanel>
+
+        <!-- Grid für die Cover-Bilder -->
+        <ScrollViewer VerticalScrollBarVisibility="Auto" Margin="0,50,0,0">
+            <ItemsControl ItemsSource="{Binding GameCovers}">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Button Click="ImageClicked" Background="Transparent" BorderThickness="0" Padding="0">
+                            <Border Margin="5" CornerRadius="10" BorderThickness="5" BorderBrush="Transparent">
+                                <Border.Style>
+                                    <Style TargetType="Border">
+                                        <Setter Property="BorderBrush" Value="Transparent"/>
+                                        <Setter Property="BorderThickness" Value="5"/>
+                                        <Style.Triggers>
+                                            <Trigger Property="IsMouseOver" Value="True">
+                                                <Setter Property="BorderBrush" Value="Gray"/>
+                                                <Setter Property="Opacity" Value="0.8"/>
+                                            </Trigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </Border.Style>
+                                <Image Source="{Binding}" Stretch="UniformToFill"
+                                       Width="{Binding CoverWidth, RelativeSource={RelativeSource AncestorType=Window}}"
+                                       Height="{Binding CoverHeight, RelativeSource={RelativeSource AncestorType=Window}}"/>
+                            </Border>
+                        </Button>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </ScrollViewer>
+    </Grid>
+</Window>
