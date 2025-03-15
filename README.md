@@ -7,3 +7,6 @@ While translating for CrazyZhang666's EA app emulator, I realized what a great a
 
 ### Why 
 In a free environment, alternative chats can be implemented that not only load games from the server but also exchange them client-to-client. Games like Blobby Volley and TrackMania Nations Forever can be created once and then simply distributed to new players without having to attend the installation process for each player.
+
+## todo
+I hope that someone can help me with the design, especially to make it a bit more similar to the original Origin, so that users can find their way around more easily.
