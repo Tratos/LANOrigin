@@ -10,3 +10,7 @@ In a free environment, alternative chats can be implemented that not only load g
 
 ## todo
 I hope that someone can help me with the design, especially to make it a bit more similar to the original Origin, so that users can find their way around more easily.
+
+
+##the Front
+(https://github.com/Tratos/LANOrigin/blob/main/originLAN.png)
