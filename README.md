@@ -11,6 +11,16 @@ In a free environment, will add features, a alternative chats can be implemented
 
 ## Security
 Add SSL Security Communications to the Server Side
+```
+At the Moment at Client Side are deactivated for Development Process with this function:
+
+        public static bool ValidateServerCertificate(object sender, X509Certificate certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors)
+        {
+            return true;
+        }
+
+```
+
 
 ## Gen Own Cert
 Install [cygwin](https://www.ssl.com/how-to/install-openssl-on-windows-with-cygwin/)
