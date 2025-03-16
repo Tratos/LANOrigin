@@ -13,9 +13,5 @@ I hope that someone can help me with the design, especially to make it a bit mor
 
 
 ##the Front
-
-(https://github.com/Tratos/LANOrigin/blob/main/originLAN.png)
-
-
-![Alt text](originLAN.png)
+![LAN Origin Screenshot](originLAN.png)
 
