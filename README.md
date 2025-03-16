@@ -1,5 +1,5 @@
 # LANOrigin
- A OpenSource Games Sales platform 
+ A OpenSource Games distribute platform 
 
 ### About:
 While translating for [CrazyZhang666's EA app emulator](https://github.com/CrazyZhang666/EAappEmulater) --> [my Translate](https://github.com/Tratos/EAappEmulator_EN) ,
