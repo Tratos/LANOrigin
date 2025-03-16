@@ -76,5 +76,9 @@ will add Features for Ingame Chat, Discord API, RestAPI, Notifications, BallonTi
 
 
 ## the Front
-![LAN Origin Screenshot](originLAN.png)
+![LAN Origin Screenshot](lanOrg1.png)
+
+![LAN Origin Screenshot](lanOrg2.png)
+
+![LAN Origin Screenshot](lanOrg3.png)
 
