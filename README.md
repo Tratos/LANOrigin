@@ -32,7 +32,7 @@ commonName: Umbrella Corporation Root CA
 ```
 import to clients: ca-root.pem (Public Key)
 
-#now Make your first Certificate from the Root authority for Used:
+# now Make your first Certificate from the Root authority for Used:
 
 ```
 openssl genrsa -out zertifikat-key.pem 2048
