@@ -13,4 +13,4 @@ I hope that someone can help me with the design, especially to make it a bit mor
 
 
 ##the Front
-Game: (https://github.com/Tratos/LANOrigin/blob/main/originLAN.png)
+![Image] (https://github.com/Tratos/LANOrigin/blob/main/originLAN.png)
