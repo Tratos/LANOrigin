@@ -67,6 +67,9 @@ Verifying - Enter Export Password: 123456
 ```
 rename zertifikat-pub.pfx to cert.pfx and copy the file at the place how have the OrginLANServer.exe installed. 
 
+you need a tool for Certificate and Key management, i used [xca](https://hohnstaedt.de/xca)
+
+
 ## todo
 I hope that someone can help me with the design, especially to make it a bit more similar to the original Origin, so that users can find their way around more easily.
 will add Features for Ingame Chat, Discord API, RestAPI, Notifications, BallonTips. 
