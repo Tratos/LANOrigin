@@ -28,7 +28,7 @@ Install [cygwin](https://www.ssl.com/how-to/install-openssl-on-windows-with-cygw
 ```
 openssl genrsa -out ca-key.pem 2048  (or 4096)
 ```
-(Save this Root CA private Key File at a good and Save Place) 
+(Save this Root CA private Key File at a good and save Place) 
 
 ```
 openssl req -x509 -new -nodes -extensions v3_ca -key ca-key.pem -days 4383 -out ca-root.pem -sha512
@@ -65,6 +65,7 @@ openssl pkcs12 -export -out zertifikat-pub.pfx -inkey zertifikat-key.pem -in zer
 Enter Export Password: 123456
 Verifying - Enter Export Password: 123456
 ```
+rename zertifikat-pub.pfx to cert.pfx and copy the file at the place how have the OrginLANServer.exe installed. 
 
 ## todo
 I hope that someone can help me with the design, especially to make it a bit more similar to the original Origin, so that users can find their way around more easily.
