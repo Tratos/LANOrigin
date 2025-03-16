@@ -12,7 +12,7 @@ In a free environment, alternative chats can be implemented that not only load g
 ## Security
 Add SSL Security Communications to the Server Side
 
-# Gen Own Cert
+## Gen Own Cert
 Install [cygwin](https://www.ssl.com/how-to/install-openssl-on-windows-with-cygwin/)
 
 ```
@@ -32,7 +32,7 @@ commonName: Umbrella Corporation Root CA
 ```
 import to clients: ca-root.pem (Public Key)
 
-# now Make your first Certificate from the Root authority for Used:
+### now Make your first Certificate from the Root authority for Used:
 
 ```
 openssl genrsa -out zertifikat-key.pem 2048
