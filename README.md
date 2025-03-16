@@ -71,6 +71,6 @@ I hope that someone can help me with the design, especially to make it a bit mor
 will add Features for Ingame Chat, Discord API, RestAPI, Notifications, BallonTips. 
 
 
-##the Front
+## the Front
 ![LAN Origin Screenshot](originLAN.png)
 
